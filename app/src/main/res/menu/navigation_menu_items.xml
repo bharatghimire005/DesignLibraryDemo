@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/floating_label"
+            android:checked="false"
+            android:title="@string/floating_labels_edit_text" />
+        <item
+            android:id="@+id/floating_button"
+            android:checked="false"
+            android:title="@string/floating_buttion" />
+        <item
+            android:id="@+id/coordinator_layout"
+            android:checked="false"
+            android:title="@string/coordinator_layout"/>
+        <item
+            android:id="@+id/appbar_layout"
+            android:checked="false"
+            android:title="@string/appbar_layout" />
+
+        <item
+            android:id="@+id/collapsing_toolbar"
+            android:checked="false"
+            android:title="@string/collapsing_toolbar" />
+
+    </group>
+</menu>

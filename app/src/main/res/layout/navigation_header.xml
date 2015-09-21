@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:orientation="vertical"
+    android:background="@color/navigation_header_red"
+    android:gravity="center">
+<TextView
+    android:id="@+id/textview_navigation_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30dp"
+    android:text="@string/navigation_view_header_title"
+    android:textStyle="bold"
+    android:paddingLeft="10dp"
+    android:layout_gravity="center_vertical"
+    android:textColor="@color/navigation_header_text_color"/>
+</LinearLayout>
